@@ -1,0 +1,12 @@
+.main-container {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  width: 1200px;
+
+  display: flex;
+
+  background-color: $main-container-bg;
+  box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
+}

@@ -1,0 +1,161 @@
+.about-me {
+  padding: 102px 80px 107px 88px;
+  width: 100%;
+}
+.main-info-title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.22;
+}
+.main-info-title-name {
+  margin-top: 19px;
+
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 1.22;
+}
+.about-me-text {
+  margin-top: 24px;
+  max-width: 500px;
+
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.7;
+  color: $second-text-color;
+}
+.projects {
+  margin-top: 40px;
+}
+.projects-title {
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 1.22;
+}
+.projects-list {
+  margin-top: 8px;
+  padding: 0;
+  max-width: 700px;
+
+  list-style: none;
+
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.1;
+
+  color: $second-text-color;
+}
+.projects-item {
+  //   display: flex;
+  &:not(:last-child) {
+    margin-bottom: 15px;
+  }
+}
+.projects-item-counter {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.1;
+}
+.projects-item-doted {
+  border-bottom: 1px dashed $second-text-color;
+  flex-grow: 1;
+  height: 1px;
+}
+.projects-item-link {
+  margin-left: 5px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: space-between;
+
+  text-decoration: none;
+  color: $second-text-color;
+  &:hover {
+    color: $accent-text-color;
+  }
+}
+
+.work-experience {
+  margin-top: 51px;
+}
+.work-experience-title {
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 1.22;
+}
+
+.work-experience-list {
+  padding: 0;
+  margin-top: 15px;
+  list-style: none;
+}
+.work-experience-item {
+  &:not(:last-child) {
+    margin-bottom: 20px;
+  }
+}
+.work-experience-item-title {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.25;
+}
+.work-experience-item-company {
+  color: $accent-text-color;
+}
+.work-experience-item-period,
+.education-period {
+  margin-top: 11px;
+  padding-left: 10px;
+
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 1.25;
+  color: #a8a8a8;
+}
+.tas-list {
+  margin-top: 12px;
+  padding-left: 30px;
+}
+.tas-list-item {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.22;
+  color: $second-text-color;
+  list-style-type: disc;
+
+  &:not(:last-child) {
+    margin-bottom: 8px;
+  }
+}
+
+.education {
+  margin-top: 43px;
+}
+.education-title {
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 1.22;
+}
+.education-list {
+  padding: 0;
+}
+.education-item {
+  margin-top: 12px;
+  list-style: none;
+  &:not(:last-child) {
+    margin-bottom: 15px;
+  }
+}
+.education-item-title {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.7;
+
+  color: $accent-text-color;
+}
+.education-profession {
+  padding-left: 10px;
+  margin-top: 11px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.22;
+}
