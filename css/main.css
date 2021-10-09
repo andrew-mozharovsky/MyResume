@@ -90,6 +90,11 @@
   line-height: 1.22;
 }
 
+.location {
+  margin-top: 10px;
+  padding-left: 27px;
+}
+
 .about-me {
   padding: 102px 17px 107px 88px;
   width: 100%;
