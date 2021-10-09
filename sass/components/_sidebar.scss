@@ -4,9 +4,8 @@
   background-color: $sidebar-bg;
   color: $sidebar-text-color;
 }
-.myPhoto{
+.myPhoto {
   // overflow: hidden;
- 
 }
 .contacts {
   margin-top: 51px;
@@ -17,16 +16,9 @@
   font-size: 22px;
   line-height: 1.22;
 }
-.contacts-list {
-  margin-top: 7px;
-  padding: 0;
-  list-style: none;
-}
 .contacts-item {
   fill: $accent-text-color;
 
-  display: flex;
-  align-items: center;
   &:not(:last-child) {
     margin-bottom: 5px;
   }
@@ -37,8 +29,8 @@
   text-decoration: none;
   font-size: 16px;
   line-height: 1.7;
-  color: $sidebar-text-color;
-  opacity: 0.4;
+  color: #fff;
+  // opacity: 0.4;
   &:hover {
     color: $accent-text-color;
     opacity: 1;
@@ -56,7 +48,8 @@
   line-height: 1.22;
 }
 .tech-skills-list,
-.soft-skills-list {
+.soft-skills-list,
+.contacts-list {
   margin-top: 7px;
   padding-left: 20px;
 
@@ -69,7 +62,8 @@
 .soft-skills-item-text {
   color: $sidebar-text-color;
 }
-.soft-skills {
+.soft-skills,
+.languages {
   margin-top: 44px;
   padding-left: 40px;
 }
