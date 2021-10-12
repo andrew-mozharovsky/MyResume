@@ -8,8 +8,6 @@
   display: -ms-flexbox;
   display: flex;
   background-color: #fff;
-  -webkit-box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
-          box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
 }
 
 .sidebar {
@@ -143,6 +141,13 @@
   color: #2b2a2a;
 }
 
+.projects-item {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.7;
+  color: #2b2a2a;
+}
+
 .projects-item:not(:last-child) {
   margin-bottom: 15px;
 }
@@ -178,7 +183,6 @@
 
 .description {
   margin-top: 5px;
-  font-size: 16px;
   margin-left: 5px;
 }
 
@@ -196,6 +200,13 @@
   padding: 0;
   margin-top: 15px;
   list-style: none;
+}
+
+.work-experience-item {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.7;
+  color: #2b2a2a;
 }
 
 .work-experience-item:not(:last-child) {
@@ -216,21 +227,18 @@
 .education-period {
   margin-top: 11px;
   padding-left: 10px;
-  font-weight: normal;
-  font-size: 15px;
-  line-height: 1.25;
-  color: #383838;
 }
 
 .tas-list {
   margin-top: 12px;
-  padding-left: 30px;
+  padding-left: 20px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.7;
+  color: #2b2a2a;
 }
 
 .tas-list-item {
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.22;
   color: #2b2a2a;
   list-style-type: disc;
 }
@@ -251,6 +259,10 @@
 
 .education-list {
   padding: 0;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.7;
+  color: #2b2a2a;
 }
 
 .education-item {
@@ -273,7 +285,6 @@
   padding-left: 10px;
   margin-top: 11px;
   font-weight: 700;
-  font-size: 14px;
   line-height: 1.22;
 }
 

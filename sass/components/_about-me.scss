@@ -46,6 +46,10 @@
   color: $second-text-color;
 }
 .projects-item {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.7;
+  color: $second-text-color;
   &:not(:last-child) {
     margin-bottom: 15px;
   }
@@ -71,7 +75,6 @@
 }
 .description {
   margin-top: 5px;
-  font-size: 16px;
   margin-left: 5px;
 }
 
@@ -90,6 +93,10 @@
   list-style: none;
 }
 .work-experience-item {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.7;
+  color: $second-text-color;
   &:not(:last-child) {
     margin-bottom: 20px;
   }
@@ -106,20 +113,16 @@
 .education-period {
   margin-top: 11px;
   padding-left: 10px;
-
-  font-weight: normal;
-  font-size: 15px;
-  line-height: 1.25;
-  color: #383838;
 }
 .tas-list {
   margin-top: 12px;
-  padding-left: 30px;
+  padding-left: 20px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.7;
+  color: $second-text-color;
 }
 .tas-list-item {
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.22;
   color: $second-text-color;
   list-style-type: disc;
 
@@ -138,6 +141,10 @@
 }
 .education-list {
   padding: 0;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.7;
+  color: $second-text-color;
 }
 .education-item {
   margin-top: 12px;
@@ -157,6 +164,5 @@
   padding-left: 10px;
   margin-top: 11px;
   font-weight: 700;
-  font-size: 14px;
   line-height: 1.22;
 }
