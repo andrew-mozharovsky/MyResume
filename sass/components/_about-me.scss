@@ -4,7 +4,7 @@
 }
 .main-info-title {
   font-weight: 700;
-  font-size: 14px;
+  font-size: 24px;
   line-height: 1.22;
 }
 .main-info-title-name {
@@ -64,6 +64,7 @@
   height: 1px;
 }
 .projects-item-link {
+  font-weight: 600;
   text-decoration: none;
   color: $second-text-color;
   &:hover {
@@ -103,7 +104,7 @@
 }
 .work-experience-item-title {
   font-weight: 700;
-  font-size: 16px;
+  font-size: 18px;
   line-height: 1.25;
 }
 .work-experience-item-company {
@@ -155,7 +156,7 @@
 }
 .education-item-title {
   font-weight: 700;
-  font-size: 16px;
+  font-size: 18px;
   line-height: 1.7;
 
   color: $accent-text-color;

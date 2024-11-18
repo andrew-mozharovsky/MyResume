@@ -30,7 +30,6 @@
 .contacts-item {
   fill: #fb6d3a;
 }
-
 .contacts-item:not(:last-child) {
   margin-bottom: 5px;
 }
@@ -39,11 +38,10 @@
   margin-left: 8px;
   font-weight: 400;
   text-decoration: none;
-  font-size: 16px;
+  font-size: 18px;
   line-height: 1.7;
   color: #fff;
 }
-
 .contacts-item-link:hover {
   color: #fb6d3a;
   opacity: 1;
@@ -66,7 +64,7 @@
   margin-top: 7px;
   padding-left: 20px;
   font-weight: 400;
-  font-size: 16px;
+  font-size: 18px;
   line-height: 1.7;
   color: #fb6d3a;
 }
@@ -100,7 +98,7 @@
 
 .main-info-title {
   font-weight: 700;
-  font-size: 14px;
+  font-size: 24px;
   line-height: 1.22;
 }
 
@@ -147,7 +145,6 @@
   line-height: 1.7;
   color: #2b2a2a;
 }
-
 .projects-item:not(:last-child) {
   margin-bottom: 15px;
 }
@@ -169,14 +166,13 @@
 }
 
 .projects-item-link {
+  font-weight: 600;
   text-decoration: none;
   color: #2b2a2a;
 }
-
 .projects-item-link:hover {
   color: #fb6d3a;
 }
-
 .projects-item-link:first-child {
   margin-right: 10px;
 }
@@ -208,14 +204,13 @@
   line-height: 1.7;
   color: #2b2a2a;
 }
-
 .work-experience-item:not(:last-child) {
   margin-bottom: 20px;
 }
 
 .work-experience-item-title {
   font-weight: 700;
-  font-size: 16px;
+  font-size: 18px;
   line-height: 1.25;
 }
 
@@ -242,7 +237,6 @@
   color: #2b2a2a;
   list-style-type: disc;
 }
-
 .tas-list-item:not(:last-child) {
   margin-bottom: 8px;
 }
@@ -269,14 +263,13 @@
   margin-top: 12px;
   list-style: none;
 }
-
 .education-item:not(:last-child) {
   margin-bottom: 15px;
 }
 
 .education-item-title {
   font-weight: 700;
-  font-size: 16px;
+  font-size: 18px;
   line-height: 1.7;
   color: #fb6d3a;
 }
@@ -313,5 +306,4 @@ ul {
 
 p {
   margin: 0;
-}
-/*# sourceMappingURL=main.css.map */
+}/*# sourceMappingURL=main.css.map */
