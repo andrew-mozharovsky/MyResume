@@ -4,7 +4,7 @@
 }
 .main-info-title {
   font-weight: 700;
-  font-size: 14px;
+  font-size: 24px;
   line-height: 1.22;
 }
 .main-info-title-name {
@@ -19,7 +19,7 @@
   // max-width: 500px;
 
   font-weight: 400;
-  font-size: 18px;
+  font-size: 16px;
   line-height: 1.7;
   color: $second-text-color;
 }
@@ -40,14 +40,14 @@
   list-style: disc;
 
   font-weight: 400;
-  font-size: 18px;
+  font-size: 16px;
   line-height: 1.1;
 
   color: $second-text-color;
 }
 .projects-item {
   font-weight: 400;
-  font-size: 18px;
+  font-size: 16px;
   line-height: 1.7;
   color: $second-text-color;
   &:not(:last-child) {
@@ -64,6 +64,7 @@
   height: 1px;
 }
 .projects-item-link {
+  font-weight: 600;
   text-decoration: none;
   color: $second-text-color;
   &:hover {
@@ -94,7 +95,7 @@
 }
 .work-experience-item {
   font-weight: 400;
-  font-size: 18px;
+  font-size: 16px;
   line-height: 1.7;
   color: $second-text-color;
   &:not(:last-child) {
@@ -118,7 +119,7 @@
   margin-top: 12px;
   padding-left: 20px;
   font-weight: 400;
-  font-size: 18px;
+  font-size: 16px;
   line-height: 1.7;
   color: $second-text-color;
 }
@@ -142,7 +143,7 @@
 .education-list {
   padding: 0;
   font-weight: 400;
-  font-size: 18px;
+  font-size: 16px;
   line-height: 1.7;
   color: $second-text-color;
 }
